@@ -4,7 +4,7 @@
 # Slim version: title, path, domains, mitre, prompt only.
 # Use --full flag to generate the verbose manifest with tables, keywords, platform, timeframe.
 
-generated: '2026-09-25T18:48:31Z'
+generated: '2026-11-10T19:36:31Z'
 valid_domains:
 - admin
 - cloud
@@ -1282,3 +1282,16 @@ queries:
   - T1105
   - T1021.006
   - T1547.001
+- title: Agentic AI Exposed Secrets and Cloud Compromise — Threat Hunts
+  path: queries/threat-intelligence/2026-11/agentic_ai_exposed_secrets_cloud_compromise.md
+  domains:
+  - cloud
+  - identity
+  - spn
+  - exposure
+  mitre:
+  - T1552.001
+  - T1078.004
+  - T1526
+  - T1580
+  - T1530
