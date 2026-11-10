@@ -175,8 +175,7 @@ DeviceProcessEvents
 ## General Tuning Notes
 
 1. These exact IOC queries are not custom-detection ready: the campaign indicators are historical, and broad sender/URL matching can create false positives.
-2. The live Advanced Hunting tests for all four queries returned 0 rows. The zero results are consistent with the source article's August and September event dates being outside the 30-day query window.
-3. Before operational reuse, refresh indicators and consider current behavioral detections for QR-code URLs, suspicious attachment delivery, and device-code sign-ins.
+2. Before operational reuse, refresh indicators and consider current behavioral detections for QR-code URLs, suspicious attachment delivery, and device-code sign-ins.
 
 ## References
 
